@@ -3,9 +3,8 @@ name: Deploy my Lambda Function
 on:
   push:
     branches:
-      - main
-      
- jobs:
+      - main   
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
